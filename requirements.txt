@@ -1,2 +1,7 @@
 pypdf
 streamlit
+langchain
+langchain-openai
+langgraph
+openai-whisper
+python-dotenv

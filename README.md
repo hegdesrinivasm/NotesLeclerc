@@ -25,7 +25,8 @@ A lecture notes summarizer that converts PDFs, text transcripts, and audio recor
 
 ### Prerequisites
 
-- Python 3.9+
+- Python 3.11+
+- [pyenv](https://github.com/pyenv/pyenv) with the [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv) plugin
 - An Azure OpenAI resource with a GPT-4o deployment
 
 ### Installation
@@ -33,8 +34,9 @@ A lecture notes summarizer that converts PDFs, text transcripts, and audio recor
 ```bash
 git clone https://github.com/<your-username>/NotesLeclerc.git
 cd NotesLeclerc
-python -m venv venv
-source venv/bin/activate
+pyenv install 3.11.11
+pyenv virtualenv 3.11.11 notesleclerc
+pyenv local notesleclerc
 pip install -r requirements.txt
 ```
 
