@@ -14,3 +14,6 @@ env/
 
 # Streamlit
 .streamlit/
+
+# Superpowers spec docs (local only, not committed)
+docs/superpowers/
